@@ -4,7 +4,7 @@
 
 const int N = 2;
 std::atomic<bool> flag[N]; 
-std::atomic<int> lock(0); // Indicates whose turn it is
+std::atomic<int> lock(0);
 
 int a=0,b=1;
 
